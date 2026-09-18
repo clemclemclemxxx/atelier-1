@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    const char *speed_unit = "km/h";
-    const char *altitude_unit = "ft";
-    const char *angle_unit = "deg";
+    char speed_unit[5] = "km/h";
+    char altitude_unit[3] = "ft";
+    char angle_unit[4] = "deg";
 
     int speed = 245;
     int altitude = 3200;
